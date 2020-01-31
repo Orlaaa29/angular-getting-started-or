@@ -8,13 +8,13 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  products = products;
+  shopProducts = products;
 
   share() {
     window.alert('The product has been shared!');
   }
 
-  onNotify(){
+  onNotify() {
     window.alert('You wil be notified when the product goes on sale');
   } 
 }
